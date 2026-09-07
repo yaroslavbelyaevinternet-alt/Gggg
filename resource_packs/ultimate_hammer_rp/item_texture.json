@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "ultimate_hammer_rp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "ultimate_hammer_wooden": { "textures": "textures/items/ultimate_hammer_wooden" },
+    "ultimate_hammer_stone": { "textures": "textures/items/ultimate_hammer_stone" },
+    "ultimate_hammer_iron": { "textures": "textures/items/ultimate_hammer_iron" },
+    "ultimate_hammer_golden": { "textures": "textures/items/ultimate_hammer_golden" },
+    "ultimate_hammer_diamond": { "textures": "textures/items/ultimate_hammer_diamond" },
+    "ultimate_hammer_netherite": { "textures": "textures/items/ultimate_hammer_netherite" }
+  }
+}

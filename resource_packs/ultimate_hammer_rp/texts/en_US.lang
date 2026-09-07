@@ -1,0 +1,22 @@
+ultimate_hammer:itemGroup.name.hammers=Hammers
+
+## Ultimate Hammer — English ##
+
+item.ultimate_hammer.wooden.name=Wooden Hammer
+item.ultimate_hammer.stone.name=Stone Hammer
+item.ultimate_hammer.iron.name=Iron Hammer
+item.ultimate_hammer.golden.name=Golden Hammer
+item.ultimate_hammer.diamond.name=Diamond Hammer
+item.ultimate_hammer.netherite.name=Netherite Hammer
+
+ultimate_hammer.desc=Mines a flat 3×3 area, 1×1 while sneaking. Digs one tier faster than the matching pickaxe. Ready for 5×5 upgrades.
+ultimate_hammer.mode.area3x3=3×3 area
+ultimate_hammer.mode.area1x1=1×1 (sneaking)
+ultimate_hammer.mode.area5x5=5×5 area (upgrade)
+ultimate_hammer.actionbar.zone=Zone
+ultimate_hammer.actionbar.plane=Plane
+ultimate_hammer.actionbar.confidence=Confidence
+ultimate_hammer.actionbar.broken=Hammer nearly broken
+ultimate_hammer.debug.title=Ultimate Hammer debug
+pack.name=Ultimate Hammer
+pack.description=Flat-area hammer tool: 3×3 / 1×1 (sneak) / 5×5-ready. Vanilla-style pixel art.

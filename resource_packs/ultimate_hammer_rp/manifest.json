@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Ultimate Hammer §7[RP]",
+    "description": "Текстуры, иконка и локализация RU/EN для Ultimate Hammer. Icons, textures and RU/EN localization for the Ultimate Hammer addon.",
+    "uuid": "acbd6ffe-76b9-4a22-b410-598cb2f6ddfb",
+    "version": [
+      1,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "082cd717-25dc-4a43-9a66-803dd57e9c04",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}

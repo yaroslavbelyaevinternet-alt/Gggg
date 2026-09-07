@@ -1,0 +1,26 @@
+{
+  "format_version": "1.26.40",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "ultimate_hammer:wooden_hammer",
+              "name": "minecraft:itemGroup.name.pickaxe"
+            },
+            "items": [
+              "ultimate_hammer:wooden_hammer",
+              "ultimate_hammer:stone_hammer",
+              "ultimate_hammer:iron_hammer",
+              "ultimate_hammer:golden_hammer",
+              "ultimate_hammer:diamond_hammer",
+              "ultimate_hammer:netherite_hammer"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
