@@ -1,0 +1,22 @@
+ultimate_hammer:itemGroup.name.hammers=Молоты
+
+## Ultimate Hammer — Русский ##
+
+item.ultimate_hammer.wooden.name=Деревянный молот
+item.ultimate_hammer.stone.name=Каменный молот
+item.ultimate_hammer.iron.name=Железный молот
+item.ultimate_hammer.golden.name=Золотой молот
+item.ultimate_hammer.diamond.name=Алмазный молот
+item.ultimate_hammer.netherite.name=Незеритовый молот
+
+ultimate_hammer.desc=Ломает плоскую область 3×3, в приседе — 1×1. Копает на один уровень быстрее соответствующей кирки. Архитектура готова к 5×5.
+ultimate_hammer.mode.area3x3=Зона 3×3
+ultimate_hammer.mode.area1x1=1×1 (присед)
+ultimate_hammer.mode.area5x5=Зона 5×5 (прокачка)
+ultimate_hammer.actionbar.zone=Зона
+ultimate_hammer.actionbar.plane=Плоскость
+ultimate_hammer.actionbar.confidence=Уверенность
+ultimate_hammer.actionbar.broken=Молот почти сломан
+ultimate_hammer.debug.title=Отладка Ultimate Hammer
+pack.name=Ultimate Hammer
+pack.description=Молот с плоским зональным разрушением: 3×3 / 1×1 (присед) / готовность к 5×5. Ванильный пиксель-арт.

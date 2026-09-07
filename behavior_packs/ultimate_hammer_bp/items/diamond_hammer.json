@@ -1,0 +1,113 @@
+{
+  "format_version": "1.26.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ultimate_hammer:diamond_hammer",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.pickaxe"
+      }
+    },
+    "components": {
+      "minecraft:icon": "ultimate_hammer_diamond",
+      "minecraft:display_name": {
+        "value": "item.ultimate_hammer.diamond.name"
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1562,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "ultimate_hammer:diamond_hammer"
+            ],
+            "repair_amount": "context.other->query.remaining_durability"
+          },
+          {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "pickaxe",
+        "value": 10
+      },
+      "minecraft:damage": {
+        "value": 5
+      },
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool",
+          "ultimate_hammer:is_hammer",
+          "minecraft:diamond_tier"
+        ]
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+            },
+            "speed": 9
+          },
+          {
+            "block": "minecraft:mob_spawner",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:ice",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:packed_ice",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:blue_ice",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:rail",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:golden_rail",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:detector_rail",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:activator_rail",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:obsidian",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:crying_obsidian",
+            "speed": 9
+          },
+          {
+            "block": "minecraft:ancient_debris",
+            "speed": 9
+          }
+        ]
+      }
+    }
+  }
+}

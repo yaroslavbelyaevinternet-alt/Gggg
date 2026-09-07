@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ultimate-hammer-debug": {
+      "command": "node",
+      "args": ["tools/mcp_debug_server.mjs"],
+      "cwd": "."
+    }
+  }
+}

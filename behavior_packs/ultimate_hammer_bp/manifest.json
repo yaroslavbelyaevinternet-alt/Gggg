@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Ultimate Hammer §7[BP]",
+    "description": "Молот с плоским зональным разрушением 3×3 / 1×1(присед) / 5×5(готово). Flat-area hammer: 3x3, 1x1 while sneaking, 5x5-ready. Target: 1.26.44, @minecraft/server 2.10.0-beta.",
+    "uuid": "5c9b44ff-cbe2-485e-804b-11f42bc405e4",
+    "version": [
+      1,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      40
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ff68506d-15eb-44dc-b810-c972232b0a1f",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "2157ab13-3457-4c51-8fb6-2c18c571e1a6",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0-beta"
+    },
+    {
+      "uuid": "acbd6ffe-76b9-4a22-b410-598cb2f6ddfb",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}

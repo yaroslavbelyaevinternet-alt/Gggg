@@ -1,0 +1,11 @@
+{
+  "name": "ultimate-hammer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ultimate Hammer — Minecraft Bedrock addon (1.26.44, @minecraft/server 2.10.0-beta). Source repo; see tools/build.sh to build the .mcaddon.",
+  "scripts": {
+    "test": "node --test",
+    "build": "bash tools/build.sh"
+  }
+}
